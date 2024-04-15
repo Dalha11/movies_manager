@@ -1,0 +1,12 @@
+dbname - python730db
+
+create table tbllogin(
+    username varchar(20) primary key,
+    password varchar(20)
+);
+insert into tbllogin values("admin","admin");
+
+TO create:
+student
+regno ai, pk
+name,course,fees - not null
